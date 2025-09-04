@@ -8,6 +8,11 @@ requirements = []
 [contracts.dao]
 path = 'contracts/dao.clar'
 clarity_version = 3
+epoch = '3.2'
+
+[contracts.fund]
+path = 'contracts/fund.clar'
+clarity_version = 3
 epoch = 'latest'
 [repl.analysis]
 passes = ['check_checker']
